@@ -1,0 +1,22 @@
+{
+  "name": "textlint-rule-preset-ja-ipsj-journal-writing",
+  "version": "1.0.0",
+  "description": "論文誌ジャーナル（IPSJ Journal）原稿執筆案内に準拠したtextlintルールプリセット",
+  "main": "lib/textlint-rule-preset-ja-ipsj-journal-writing.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bean1310/textlint-rule-preset-ja-ipsj-journal-writing.git"
+  },
+  "author": "bean1310",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bean1310/textlint-rule-preset-ja-ipsj-journal-writing/issues"
+  },
+  "homepage": "https://github.com/bean1310/textlint-rule-preset-ja-ipsj-journal-writing#readme",
+  "dependencies": {
+    "textlint-rule-preset-ja-technical-writing": "^4.0.1"
+  }
+}
