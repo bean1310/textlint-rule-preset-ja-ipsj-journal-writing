@@ -4,7 +4,7 @@
   "description": "論文誌ジャーナル（IPSJ Journal）原稿執筆案内に準拠したtextlintルールプリセット",
   "main": "lib/textlint-rule-preset-ja-ipsj-journal-writing.js",
   "scripts": {
-    "test": "test"
+    "test": "textlint-scripts test"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/bean1310/textlint-rule-preset-ja-ipsj-journal-writing#readme",
   "dependencies": {
+    "textlint-rule-ja-use-comma-instead-of-touten": "^1.0.0",
     "textlint-rule-preset-ja-technical-writing": "^4.0.1"
+  },
+  "devDependencies": {
+    "textlint-scripts": "^3.0.0"
   }
 }
